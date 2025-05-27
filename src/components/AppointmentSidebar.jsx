@@ -39,7 +39,7 @@ const AppointmentSidebar = () => {
         <div className="grid grid-cols-7 text-sm text-gray-700 gap-y-2 gap-x-1">
           {[...Array(31).keys()].map((d) => {
             const day = d + 1;
-            const isToday = day === 26;
+            const isToday = day === 27;
 
             return (
               <div
